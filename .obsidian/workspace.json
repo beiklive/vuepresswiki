@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "314cda1c63a7eeba",
+    "type": "split",
+    "children": [
+      {
+        "id": "32ef8c70b6c87ba2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1f9ed65df46c524",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "beiklive/00.目录页/03.资源.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9bf45a65572efa43",
+    "type": "split",
+    "children": [
+      {
+        "id": "1193c3acad54c3d1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c3b871b8afeb5ff0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bcb1fb7f4ecd0861",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:c++",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0a5730b4cc50a409",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "c000bff5ffb16230",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "beiklive/00.目录页/03.资源.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 369.51103591918945
+  },
+  "right": {
+    "id": "9fc46e5c65ccb73a",
+    "type": "split",
+    "children": [
+      {
+        "id": "00f9be2416696ae5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bc393173036246b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "beiklive/00.目录页/03.资源.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b42c7adeff2d194c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "beiklive/00.目录页/03.资源.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "07e3c42375c8256b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "96817b9fb15711b9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3bb3a3222f4a9505",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 327.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "f1f9ed65df46c524",
+  "lastOpenFiles": [
+    "beiklive/03.资源/01.书籍文档/01.书籍文档.md",
+    "beiklive/02.记录/01.工具使用/03.xmake.md",
+    "beiklive/02.记录/01.工具使用/02.vscode.md",
+    "beiklive/02.记录/01.工具使用/01.Git.md",
+    "beiklive/01.学习/02.操作系统/01. Linux.md",
+    "beiklive/Note_Linux/05.Linux终端字符染色.md",
+    "beiklive/Note_Linux/03.自定义 systemd 服务 1 1 1.md",
+    "beiklive/Note_Linux/03.自定义 systemd 服务.md",
+    "beiklive/Note_Linux/04.MySQL安装.md",
+    "beiklive/Note_Linux/02.Samba配置.md",
+    "beiklive/Note_Linux/01.ubuntu桌面版自定义快捷方式.md",
+    "beiklive/Note_Qt/03.QT 代码片段.md",
+    "beiklive/Note_Qt/02.QT Git Action.md",
+    "beiklive/Note_Qt/01.QT安装.md",
+    "ob/ob_模板/wiki模板（开启评论）.md",
+    "beiklive/Note_Python/02.代码片段.md",
+    "ob/ob_模板/placeholder.md",
+    "beiklive/Note_Python/01.配置和换源.md",
+    "beiklive/Note_C/01.控制台实现2048小游戏.md",
+    "beiklive/02.记录/02.折腾记录/02.obsidian.md",
+    "beiklive/02.记录/02.折腾记录/01.树莓派.md",
+    "beiklive/Note_C/asserts/Pasted image 20240508195529.png",
+    "Pasted image 20240508200611.png",
+    "beiklive/01.学习/01.语言学习/00. C++.md",
+    "beiklive/Note_C/02.C++简单线程池.md",
+    "beiklive/Note_C/03.控制台实现2048小游戏.md",
+    "beiklive/Note_C/asserts",
+    "beiklive/index.md",
+    "yarn.lock",
+    "node_modules/worker-farm/node_modules",
+    "node_modules/webpackbar/node_modules",
+    "node_modules/webpack-log/node_modules",
+    "node_modules/webpack-dev-middleware/node_modules",
+    "node_modules/warning/node_modules",
+    "node_modules/vuepress/node_modules/update-notifier/node_modules",
+    "node_modules/vuepress/node_modules/semver-diff/node_modules",
+    "node_modules/vuepress/node_modules/registry-url/node_modules",
+    "node_modules/wide-align/README.md",
+    "node_modules/qrcode-terminal/example/basic.png",
+    "node_modules/gitalk/node_modules/date-fns/docs/logotype.svg",
+    "node_modules/gitalk/node_modules/date-fns/docs/logo.svg",
+    "node_modules/promise-retry/node_modules/retry/equation.gif",
+    "node_modules/@vuepress/theme-default/node_modules/@vuepress/plugin-search/search.svg",
+    "cache/img/Pasted image 20240507213857.png",
+    "图片/img/32f5bbb0-4206-429a-86ad-f5d1ab91072b.jpg",
+    "图片/img/favicon.svg",
+    "第一白板.canvas",
+    "未命名 1.canvas"
+  ]
+}
