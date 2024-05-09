@@ -23,7 +23,7 @@ features:
 postList: detailed
 title: index
 date: 2024-05-07 19:30:00
-permalink: /pages/5396d4/
+permalink: /
 categories: []
 tags: 
   - 
