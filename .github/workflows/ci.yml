@@ -30,12 +30,13 @@ jobs:
         run: |
           remote_addr=`git remote get-url --push origin`
           commit_info=`git describe --all --always --long`
-          user_name=`git log -1 --pretty=format:'%an'`
-          user_email=`git log -1 --pretty=format:'%ae'`
+          user_name=`beiklive`
+          user_email=`1376896787@qq.com`
           deploy_branch=gh-pages
           yarn
           yarn build
           cd beiklive/.vuepress/dist
+          ls -al
           git config --global init.defaultBranch $deploy_branch
           git init
           git config user.name ${user_name}
