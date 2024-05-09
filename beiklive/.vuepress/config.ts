@@ -46,7 +46,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '操作系统',
             items: [
-              { text: 'Ubuntu', link: '/note/linux/' },
+              { text: 'Linux', link: '/note/linux/' },
             ],
           }
         ],
@@ -66,8 +66,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '折腾记录',
             items: [
-              { text: '树莓派', link: '/pages/23a791/' },
-              { text: 'Obsidian', link: '/pages/e57ceb/' }
+              { text: '树莓派', link: '/note/raspberrypi/' },
+              { text: 'Obsidian', link: '/note/obsidian/' }
             ],
           },
 

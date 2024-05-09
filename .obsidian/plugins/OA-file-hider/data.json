@@ -1,0 +1,9 @@
+{
+  "hidden": true,
+  "hiddenList": [
+    "beiklive/@pages",
+    "utils",
+    "vdoing",
+    "node_modules"
+  ]
+}

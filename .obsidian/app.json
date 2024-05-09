@@ -1,6 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "beiklive/.vuepress/public/asserts/",
+  "attachmentFolderPath": "./assert",
   "newLinkFormat": "relative",
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
@@ -8,5 +8,6 @@
   "useMarkdownLinks": true,
   "userIgnoreFilters": [
     "node_modules/"
-  ]
+  ],
+  "propertiesInDocument": "source"
 }
