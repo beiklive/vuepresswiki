@@ -4,7 +4,7 @@
 set -e
 
 
-push_addr=https://github.com/beiklive/beiklive.github.io # git提交地址，也可以手动设置，比如：push_addr=git@github.com:xugaoyi/vuepress-theme-vdoing.git
+push_addr=`git remote get-url --push origin` # git提交地址，也可以手动设置，比如：push_addr=git@github.com:xugaoyi/vuepress-theme-vdoing.git
 commit_info=`git describe --all --always --long`
 dist_path=beiklive/.vuepress/dist # 打包生成的文件夹路径
 push_branch=gh-pages # 推送的分支
