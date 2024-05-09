@@ -11,18 +11,6 @@ on:
 env: # 设置环境变量
   TZ: Asia/Shanghai # 时区（设置时区可使页面中的`最近更新时间`使用该时区时间）
 
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-    contents: read
-    pages: write
-    id-token: write
-  
-  # Allow one concurrent deployment
-concurrency:
-    group: "pages"
-    cancel-in-progress: true
-
 jobs:
   build: # 自定义名称
     runs-on: ubuntu-latest # 运行在虚拟机环境ubuntu-latest
@@ -47,21 +35,14 @@ jobs:
           deploy_branch=gh-pages
           yarn
           yarn build
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-            path: 'beiklive/.vuepress/dist/'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1   
-        #   cd beiklive/.vuepress/dist
-        #   git config --global init.defaultBranch $deploy_branch
-        #   git init
-        #   git config user.name ${user_name}
-        #   git config user.email ${user_email}
-        #   git add -A
-        #   git commit -m "auto deploy, $commit_info"
-        #   remote_addr=`echo $remote_addr | awk -F'://' '{print $2}'`
-        #   remote_addr=https://${user_name}:${{secrets.GITHUB_TOKEN}}@${remote_addr}
-        #   git remote add origin ${remote_addr}
-        #   git push origin HEAD:$deploy_branch --force # 推送到github $deploy_branch分支
+          cd beiklive/.vuepress/dist
+          git config --global init.defaultBranch $deploy_branch
+          git init
+          git config user.name ${user_name}
+          git config user.email ${user_email}
+          git add -A
+          git commit -m "auto deploy, $commit_info"
+          remote_addr=`https://github.com/beiklive/beiklive.github.io`
+          remote_addr=https://${user_name}:${{secrets.GITHUB_TOKEN}}@${remote_addr}
+          git remote add origin ${remote_addr}
+          git push origin HEAD:$deploy_branch --force # 推送到github $deploy_branch分支
