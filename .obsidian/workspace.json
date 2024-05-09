@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
-                "mode": "preview",
+                "file": "beiklive/Note_obsidian/01.插件推荐.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md"
+                "file": "beiklive/Note_obsidian/01.插件推荐.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
+                "file": "beiklive/Note_obsidian/01.插件推荐.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
+                "file": "beiklive/Note_obsidian/01.插件推荐.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,6 +157,8 @@
   },
   "active": "da9ca8a590533596",
   "lastOpenFiles": [
+    "beiklive/00.目录页/04.更多.md",
+    "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
     "push.bat",
     "githubpush.py",
     "githubpush.bat",
@@ -167,7 +169,6 @@
     "node_modules/gitalk/node_modules/date-fns/fp/lastDayOfQuarter/index.js.flow",
     "node_modules/gitalk/node_modules/date-fns/fp/lastDayOfQuarter/index.d.ts",
     "node_modules/gitalk/node_modules/date-fns/fp/lastDayOfQuarter",
-    "node_modules/gitalk/node_modules/date-fns/fp/isWithinInterval/package.json",
     "beiklive/Note_obsidian/01.插件推荐.md",
     "beiklive/02.记录/02.折腾记录/00.obsidian.md",
     "beiklive/02.记录/01.工具使用/01.Git.md",
@@ -192,7 +193,6 @@
     "node_modules/npm/node_modules/concat-stream/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
     "node_modules/npm/node_modules/duplexify/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
     "node_modules/npm/node_modules/duplexify/node_modules/readable-stream/node_modules/safe-buffer/README.md",
-    "node_modules/npm/node_modules/concat-stream/node_modules/string_decoder/node_modules/safe-buffer/README.md",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
     "node_modules/stream-http/test/server/static/browserify.png",
