@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/01.Git.md",
-                "mode": "source",
+                "file": "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/01.Git.md"
+                "file": "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/01.Git.md",
+                "file": "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/01.Git.md",
+                "file": "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,6 +165,9 @@
   },
   "active": "da9ca8a590533596",
   "lastOpenFiles": [
+    "beiklive/Note_obsidian/01.插件推荐.md",
+    "beiklive/02.记录/02.折腾记录/00.obsidian.md",
+    "beiklive/02.记录/01.工具使用/01.Git.md",
     "node_modules/worker-farm/node_modules",
     "node_modules/webpackbar/node_modules",
     "node_modules/webpack-log/node_modules",
@@ -175,7 +178,6 @@
     "node_modules/vuepress/node_modules/semver-diff/node_modules",
     "node_modules/vuepress/node_modules/registry-url/node_modules",
     "node_modules/vuepress/node_modules/registry-auth-token/node_modules",
-    "node_modules/vuepress/node_modules/package-json/node_modules",
     "node_modules/npm/node_modules/parallel-transform/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
     "node_modules/npm/node_modules/through2/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
     "node_modules/npm/node_modules/through2/node_modules/string_decoder/node_modules/safe-buffer/README.md",
@@ -199,8 +201,6 @@
     "node_modules/npm/node_modules/duplexify/node_modules/readable-stream/node_modules/safe-buffer/README.md",
     "node_modules/npm/node_modules/concat-stream/node_modules/string_decoder/node_modules/safe-buffer/README.md",
     "node_modules/npm/node_modules/concat-stream/node_modules/readable-stream/node_modules/safe-buffer/README.md",
-    "node_modules/npm/node_modules/are-we-there-yet/node_modules/string_decoder/node_modules/safe-buffer/README.md",
-    "node_modules/npm/node_modules/socks/docs/examples/typescript/connectExample.md",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
     "node_modules/stream-http/test/server/static/browserify.png",
