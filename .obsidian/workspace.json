@@ -136,17 +136,9 @@
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "3bb3a3222f4a9505",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
