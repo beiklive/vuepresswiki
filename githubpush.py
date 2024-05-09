@@ -36,7 +36,7 @@ def main():
         subprocess.run(['git', 'commit', '-m', final_commit_message])
 
         # 推送到远程仓库
-        # subprocess.run(['git', 'push'])
+        subprocess.run(['git', 'push'])
 
         print("提交完成！")
     except subprocess.CalledProcessError as e:
