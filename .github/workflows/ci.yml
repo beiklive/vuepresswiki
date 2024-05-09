@@ -35,14 +35,21 @@ jobs:
           deploy_branch=gh-pages
           yarn
           yarn build
-          cd beiklive/.vuepress/dist
-          git config --global init.defaultBranch $deploy_branch
-          git init
-          git config user.name ${user_name}
-          git config user.email ${user_email}
-          git add -A
-          git commit -m "auto deploy, $commit_info"
-          remote_addr=`echo $remote_addr | awk -F'://' '{print $2}'`
-          remote_addr=https://${user_name}:${{secrets.GITHUB_TOKEN}}@${remote_addr}
-          git remote add origin ${remote_addr}
-          git push origin HEAD:$deploy_branch --force # 推送到github $deploy_branch分支
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+            path: 'beiklive/.vuepress/dist/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1   
+        #   cd beiklive/.vuepress/dist
+        #   git config --global init.defaultBranch $deploy_branch
+        #   git init
+        #   git config user.name ${user_name}
+        #   git config user.email ${user_email}
+        #   git add -A
+        #   git commit -m "auto deploy, $commit_info"
+        #   remote_addr=`echo $remote_addr | awk -F'://' '{print $2}'`
+        #   remote_addr=https://${user_name}:${{secrets.GITHUB_TOKEN}}@${remote_addr}
+        #   git remote add origin ${remote_addr}
+        #   git push origin HEAD:$deploy_branch --force # 推送到github $deploy_branch分支
