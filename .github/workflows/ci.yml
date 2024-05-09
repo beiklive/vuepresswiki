@@ -30,20 +30,19 @@ jobs:
         run: |
           remote_addr=`git remote get-url --push origin`
           commit_info=`git describe --all --always --long`
-          user_name=`beiklive`
-          user_email=`1376896787@qq.com`
+          user_name=`git log -1 --pretty=format:'%an'`
+          user_email=`git log -1 --pretty=format:'%ae'`
           deploy_branch=gh-pages
           yarn
           yarn build
           cd beiklive/.vuepress/dist
-          ls -al
           git config --global init.defaultBranch $deploy_branch
           git init
           git config user.name ${user_name}
           git config user.email ${user_email}
           git add -A
           git commit -m "auto deploy, $commit_info"
-          remote_addr=`https://github.com/beiklive/beiklive.github.io`
+          remote_addr=`echo $remote_addr | awk -F'://' '{print $2}'`
           remote_addr=https://${user_name}:${{secrets.GITHUB_TOKEN}}@${remote_addr}
           git remote add origin ${remote_addr}
           git push origin HEAD:$deploy_branch --force # 推送到github $deploy_branch分支
