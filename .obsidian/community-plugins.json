@@ -1,6 +1,8 @@
 [
   "obsidian-excalidraw-plugin",
-  "obsidian-markmind",
   "obsidian-image-auto-upload-plugin",
-  "OA-file-hider"
+  "OA-file-hider",
+  "obsidian-mind-map",
+  "file-explorer-note-count",
+  "shortcuts-extender"
 ]

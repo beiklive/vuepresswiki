@@ -69,7 +69,7 @@ var VisibilityToggleCommand = class {
 var import_obsidian = __toModule(require("obsidian"));
 var VisibilityToggleSetting = class {
   static create(plugin, container) {
-    return new import_obsidian.Setting(container).setName(`Hidden File Visibility`).setDesc(`Toggle whether or not files and folders that are told to be hidden will be hidden or not.`).addToggle((toggle) => {
+    return new import_obsidian.Setting(container).setName(`隐藏文件的可见性`).setDesc(`调整文件和文件夹的隐藏状态，使其显示或隐藏。`).addToggle((toggle) => {
       toggle.setValue(!plugin.settings.hidden).onChange(() => {
         plugin.toggleVisibility();
       });
@@ -92,7 +92,7 @@ var HiddenPathsModal = class extends import_obsidian2.Modal {
   }
   onOpen() {
     const { contentEl: content } = this;
-    content.createEl(`h1`, { text: `Hidden Files and Folders` });
+    content.createEl(`h1`, { text: `已隐藏的文件和文件夹` });
     content.createEl(`hr`);
     let body = content.createEl(`div`, { cls: `hidden-list-modal-body` });
     this.plugin.settings.hiddenList.forEach((path) => {
@@ -114,8 +114,8 @@ var HiddenPathsModal = class extends import_obsidian2.Modal {
 // src/settings/manageHiddenPaths.ts
 var ManageHiddenPaths = class {
   static create(plugin, container) {
-    return new import_obsidian3.Setting(container).setName(`Hidden Files and Folders`).setDesc(`Add or remove files and folders from the list that are being hidden`).addButton((b) => {
-      b.setButtonText(`Manage`).onClick((event) => {
+    return new import_obsidian3.Setting(container).setName(`已隐藏的文件和文件夹`).setDesc(`在列表中添加或移除要隐藏的文件和文件夹。`).addButton((b) => {
+      b.setButtonText(`管理`).onClick((event) => {
         if (!event.isTrusted) {
           return;
         }
@@ -158,11 +158,11 @@ var FileHider = class extends import_obsidian4.Plugin {
         if (file instanceof import_obsidian4.TFolder) {
           menu.addItem((i) => {
             if (this.settings.hiddenList.includes(file.path)) {
-              i.setTitle(`Unhide Folder`).setIcon(`eye`).onClick(() => {
+              i.setTitle(`显示目录`).setIcon(`eye`).onClick(() => {
                 this.unhidePath(file.path);
               });
             } else {
-              i.setTitle(`Hide Folder`).setIcon(`eye-off`).onClick(() => {
+              i.setTitle(`隐藏目录`).setIcon(`eye-off`).onClick(() => {
                 changePathVisibility(file.path, this.settings.hidden);
                 this.settings.hiddenList.push(file.path);
                 this.saveSettings();
@@ -173,11 +173,11 @@ var FileHider = class extends import_obsidian4.Plugin {
         } else {
           menu.addItem((i) => {
             if (this.settings.hiddenList.includes(file.path)) {
-              i.setTitle(`Unhide File`).setIcon(`eye`).onClick((e) => {
+              i.setTitle(`显示文件`).setIcon(`eye`).onClick((e) => {
                 this.unhidePath(file.path);
               });
             } else {
-              i.setTitle(`Hide File`).setIcon(`eye-off`).onClick((e) => {
+              i.setTitle(`隐藏文件`).setIcon(`eye-off`).onClick((e) => {
                 changePathVisibility(file.path, this.settings.hidden);
                 this.settings.hiddenList.push(file.path);
                 this.saveSettings();
