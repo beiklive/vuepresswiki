@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "26aa181c0f741a04",
+        "id": "2ae594e3ab489bd3",
         "type": "tabs",
         "children": [
           {
-            "id": "8c9322c7f56a73f7",
+            "id": "ea47ae49287cb087",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/02.vscode.md",
+                "file": "beiklive/03.资源/02.工具网站/02.摸鱼网站.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/02.vscode.md"
+                "file": "beiklive/03.资源/02.工具网站/02.摸鱼网站.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/02.vscode.md",
+                "file": "beiklive/03.资源/02.工具网站/02.摸鱼网站.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/02.vscode.md",
+                "file": "beiklive/03.资源/02.工具网站/02.摸鱼网站.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,8 +155,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8c9322c7f56a73f7",
+  "active": "ea47ae49287cb087",
   "lastOpenFiles": [
+    "beiklive/03.资源/02.工具网站/01.工具网站.md",
+    "beiklive/03.资源/02.工具网站/02.摸鱼网站.md",
+    "beiklive/03.资源/01.书籍文档/01.书籍文档.md",
+    "ob/ob_模板/gayhub项目模板.mb.md",
+    "ob/ob_模板/工具网站模板.mb.md",
+    "ob/ob_模板/书籍文档模板.mb.md",
+    "beiklive/02.记录/01.工具使用/03.xmake.md",
+    "beiklive/02.记录/01.工具使用/02.vscode.md",
     "beiklive/Note_obsidian/01.插件推荐.md",
     "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
     "ob/ob_流程图和思维导图/FastDDS/Fast-DDS发布者文件构成.md",
@@ -185,13 +193,6 @@
     "node_modules/npm/node_modules/stream-iterate/node_modules/readable-stream/node_modules/safe-buffer/README.md",
     "node_modules/npm/node_modules/parallel-transform/node_modules/string_decoder/node_modules/safe-buffer/README.md",
     "node_modules/npm/node_modules/parallel-transform/node_modules/readable-stream/node_modules/safe-buffer/README.md",
-    "node_modules/npm/node_modules/from2/node_modules/string_decoder/node_modules/safe-buffer/README.md",
-    "node_modules/npm/node_modules/duplexify/node_modules/string_decoder/node_modules/safe-buffer/README.md",
-    "node_modules/npm/node_modules/har-validator/node_modules/ajv/lib/dotjs/README.md",
-    "node_modules/npm/node_modules/fs-write-stream-atomic/node_modules/string_decoder/node_modules/safe-buffer/README.md",
-    "node_modules/npm/node_modules/fs-write-stream-atomic/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
-    "node_modules/npm/node_modules/fs-write-stream-atomic/node_modules/readable-stream/node_modules/safe-buffer/README.md",
-    "node_modules/npm/node_modules/from2/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
     "node_modules/stream-http/test/server/static/browserify.png",
