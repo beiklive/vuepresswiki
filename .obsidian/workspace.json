@@ -11,8 +11,12 @@
             "id": "b17e861e7080aef8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "beiklive/04.更多/01. friends.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -66,7 +70,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "beiklive/04.更多/01. friends.md"
+              }
             }
           }
         ]
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "beiklive/04.更多/01. friends.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "beiklive/04.更多/01. friends.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +157,10 @@
   },
   "active": "b17e861e7080aef8",
   "lastOpenFiles": [
+    "beiklive/01.学习/01.语言学习/01.Python.md",
+    "beiklive/04.更多/01. friends.md",
     "ob/ob_模板/friend.mb.md",
     "ob/ob_模板/书籍文档模板.mb.md",
-    "beiklive/04.更多/01. friends.md",
     "beiklive/01.学习/01.语言学习/00.C++.md",
     "beiklive/index.md",
     "beiklive/02.记录/01.工具使用/01.Git.md",
@@ -184,7 +193,6 @@
     "beiklive/02.记录/02.折腾记录/00.obsidian.md",
     "node_modules/npm/node_modules/parallel-transform/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
     "node_modules/npm/node_modules/through2/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
-    "node_modules/npm/node_modules/through2/node_modules/string_decoder/node_modules/safe-buffer/README.md",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
     "node_modules/stream-http/test/server/static/browserify.png",
