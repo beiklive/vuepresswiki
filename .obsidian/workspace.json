@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "beiklive/Note_obsidian/01.插件推荐.md",
+                "file": "beiklive/02.记录/01.工具使用/02.vscode.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "beiklive/Note_obsidian/01.插件推荐.md"
+                "file": "beiklive/02.记录/01.工具使用/02.vscode.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "beiklive/Note_obsidian/01.插件推荐.md",
+                "file": "beiklive/02.记录/01.工具使用/02.vscode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "beiklive/Note_obsidian/01.插件推荐.md",
+                "file": "beiklive/02.记录/01.工具使用/02.vscode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +157,8 @@
   },
   "active": "8c9322c7f56a73f7",
   "lastOpenFiles": [
-    "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
     "beiklive/Note_obsidian/01.插件推荐.md",
+    "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
     "ob/ob_流程图和思维导图/FastDDS/Fast-DDS发布者文件构成.md",
     "ob/ob_流程图和思维导图/FastDDS/Fast-DDS发布者实现.md",
     "ob/ob_流程图和思维导图/FastDDS",
