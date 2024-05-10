@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "beiklive/03.资源/02.工具网站/02.摸鱼网站.md",
+                "file": "beiklive/04.更多/01. friends.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "beiklive/03.资源/02.工具网站/02.摸鱼网站.md"
+                "file": "beiklive/04.更多/01. friends.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "beiklive/03.资源/02.工具网站/02.摸鱼网站.md",
+                "file": "beiklive/04.更多/01. friends.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "beiklive/03.资源/02.工具网站/02.摸鱼网站.md",
+                "file": "beiklive/04.更多/01. friends.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,14 +157,19 @@
   },
   "active": "ea47ae49287cb087",
   "lastOpenFiles": [
-    "beiklive/03.资源/02.工具网站/01.工具网站.md",
+    "beiklive/01.学习/01.语言学习/00.C++.md",
+    "beiklive/index.md",
+    "beiklive/04.更多/01. friends.md",
+    "beiklive/02.记录/01.工具使用/01.Git.md",
+    "beiklive/04.更多",
+    "beiklive/02.记录/01.工具使用/02.vscode.md",
     "beiklive/03.资源/02.工具网站/02.摸鱼网站.md",
+    "beiklive/03.资源/02.工具网站/01.工具网站.md",
     "beiklive/03.资源/01.书籍文档/01.书籍文档.md",
     "ob/ob_模板/gayhub项目模板.mb.md",
     "ob/ob_模板/工具网站模板.mb.md",
     "ob/ob_模板/书籍文档模板.mb.md",
     "beiklive/02.记录/01.工具使用/03.xmake.md",
-    "beiklive/02.记录/01.工具使用/02.vscode.md",
     "beiklive/Note_obsidian/01.插件推荐.md",
     "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
     "ob/ob_流程图和思维导图/FastDDS/Fast-DDS发布者文件构成.md",
@@ -183,16 +188,11 @@
     "node_modules/gitalk/node_modules/date-fns/fp/lastDayOfQuarter/index.js",
     "node_modules/gitalk/node_modules/date-fns/fp/lastDayOfQuarter/package.json",
     "node_modules/gitalk/node_modules/date-fns/fp/lastDayOfQuarter/index.js.flow",
-    "node_modules/gitalk/node_modules/date-fns/fp/lastDayOfQuarter/index.d.ts",
     "beiklive/02.记录/02.折腾记录/00.obsidian.md",
-    "beiklive/02.记录/01.工具使用/01.Git.md",
     "node_modules/npm/node_modules/parallel-transform/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
     "node_modules/npm/node_modules/through2/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
     "node_modules/npm/node_modules/through2/node_modules/string_decoder/node_modules/safe-buffer/README.md",
     "node_modules/npm/node_modules/through2/node_modules/readable-stream/node_modules/safe-buffer/README.md",
-    "node_modules/npm/node_modules/stream-iterate/node_modules/readable-stream/node_modules/safe-buffer/README.md",
-    "node_modules/npm/node_modules/parallel-transform/node_modules/string_decoder/node_modules/safe-buffer/README.md",
-    "node_modules/npm/node_modules/parallel-transform/node_modules/readable-stream/node_modules/safe-buffer/README.md",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
     "node_modules/stream-http/test/server/static/browserify.png",
