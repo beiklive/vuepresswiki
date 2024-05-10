@@ -4,41 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b436c885e7f224c3",
-        "type": "split",
+        "id": "26aa181c0f741a04",
+        "type": "tabs",
         "children": [
           {
-            "id": "273c9308ba773a41",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c1a7b7c4ebfc258d",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "ob/ob_Excalidraw/Drawing 2024-04-29 16.52.30.excalidraw.md"
-                  }
-                }
+            "id": "8c9322c7f56a73f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "beiklive/Note_obsidian/01.插件推荐.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "7fbe2eab9f455b0c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f67fcd7e3ed75aa5",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap",
-                  "state": {}
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ob/ob_Excalidraw/Drawing 2024-04-29 16.52.30.excalidraw.md"
+                "file": "beiklive/Note_obsidian/01.插件推荐.md"
               }
             }
           }
@@ -98,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.5
+    "width": 282.50418853759766
   },
   "right": {
     "id": "9fc46e5c65ccb73a",
@@ -114,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ob/ob_Excalidraw/Drawing 2024-04-29 16.52.30.excalidraw.md",
+                "file": "beiklive/Note_obsidian/01.插件推荐.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ob/ob_Excalidraw/Drawing 2024-04-29 16.52.30.excalidraw.md",
+                "file": "beiklive/Note_obsidian/01.插件推荐.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,21 +155,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c1a7b7c4ebfc258d",
+  "active": "8c9322c7f56a73f7",
   "lastOpenFiles": [
-    "ob/ob_流程图和思维导图/mindmap.mind.md",
-    "Excalidraw/Drawing 2024-05-09 16.45.07.excalidraw.md",
+    "ob/ob_流程图和思维导图/FastDDS/Fast-DDS发布者文件构成.md",
+    "ob/ob_流程图和思维导图/FastDDS/Fast-DDS发布者实现.md",
+    "ob/ob_流程图和思维导图/FastDDS",
     "ob/ob_流程图和思维导图/test.md",
     "ob/ob_流程图和思维导图/STL空间配置器流程图.excalidraw.md",
-    "ob/ob_流程图和思维导图/未命名.canvas",
-    "Excalidraw",
-    "beiklive/02.记录/01.工具使用/03.xmake.md",
-    "beiklive/02.记录/01.工具使用/02.vscode.md",
-    "beiklive/02.记录/01.工具使用/01.Git.md",
-    "beiklive/00.目录页/01.学习.md",
+    "ob/ob_Excalidraw/Drawing 2024-04-29 16.52.30.excalidraw.md",
+    "README.MD",
+    "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
     "beiklive/Note_obsidian/01.插件推荐.md",
     "beiklive/00.目录页/04.更多.md",
-    "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
     "push.bat",
     "githubpush.py",
     "githubpush.bat",
@@ -199,6 +177,7 @@
     "node_modules/gitalk/node_modules/date-fns/fp/lastDayOfQuarter/index.js.flow",
     "node_modules/gitalk/node_modules/date-fns/fp/lastDayOfQuarter/index.d.ts",
     "beiklive/02.记录/02.折腾记录/00.obsidian.md",
+    "beiklive/02.记录/01.工具使用/01.Git.md",
     "node_modules/npm/node_modules/parallel-transform/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
     "node_modules/npm/node_modules/through2/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
     "node_modules/npm/node_modules/through2/node_modules/string_decoder/node_modules/safe-buffer/README.md",
