@@ -320,7 +320,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         options: {
           clientID: 'Ov23ctDxPQXzbwKJvoE1',
           clientSecret: 'a8d80a55ac121fdb8632771b49dd184b65e889f8',
-          repo: 'Gtalk_store', // GitHub 仓库
+          repo: 'vuepresswiki', // GitHub 仓库
           owner: 'beiklive', // GitHub仓库所有者
           admin: ['beiklive'], // 对仓库有写权限的人
           // distractionFreeMode: true,
