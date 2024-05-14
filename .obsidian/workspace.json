@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "beiklive/Note_Python/03.打包py为可执行文件.md",
+                "file": "beiklive/03.资源/03.Github项目/01.Github项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "beiklive/Note_Python/03.打包py为可执行文件.md"
+                "file": "beiklive/03.资源/03.Github项目/01.Github项目.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "beiklive/Note_Python/03.打包py为可执行文件.md",
+                "file": "beiklive/03.资源/03.Github项目/01.Github项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "beiklive/Note_Python/03.打包py为可执行文件.md",
+                "file": "beiklive/03.资源/03.Github项目/01.Github项目.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,10 +157,14 @@
   },
   "active": "b17e861e7080aef8",
   "lastOpenFiles": [
-    "beiklive/01.学习/01.语言学习/01.Python.md",
-    "beiklive/Note_Python/03.打包py为可执行文件.md",
-    "beiklive/Note_Python/01.配置和换源.md",
+    "beiklive/03.资源/01.书籍文档/01.书籍文档.md",
+    "ob/ob_模板/工具网站模板.mb.md",
+    "ob/ob_模板/书籍文档模板.mb.md",
+    "beiklive/_posts/随笔/测试.md",
     "beiklive/Note_Python/02.代码片段.md",
+    "beiklive/Note_Python/03.打包py为可执行文件.md",
+    "beiklive/01.学习/01.语言学习/01.Python.md",
+    "beiklive/Note_Python/01.配置和换源.md",
     "tools/新文章生成器/main.exe",
     "tools/新文章生成器/build/main/EXE-00.toc",
     "tools/新文章生成器/dist/main.exe",
@@ -174,16 +178,13 @@
     "beiklive/Note_Python/03.打包py代码为可执行文件.md",
     "beiklive/04.更多/01. friends.md",
     "ob/ob_模板/friend.mb.md",
-    "ob/ob_模板/书籍文档模板.mb.md",
     "beiklive/01.学习/01.语言学习/00.C++.md",
     "beiklive/index.md",
     "beiklive/02.记录/01.工具使用/01.Git.md",
     "beiklive/02.记录/01.工具使用/02.vscode.md",
     "beiklive/03.资源/02.工具网站/02.摸鱼网站.md",
     "beiklive/03.资源/02.工具网站/01.工具网站.md",
-    "beiklive/03.资源/01.书籍文档/01.书籍文档.md",
     "ob/ob_模板/gayhub项目模板.mb.md",
-    "ob/ob_模板/工具网站模板.mb.md",
     "beiklive/02.记录/01.工具使用/03.xmake.md",
     "beiklive/Note_obsidian/01.插件推荐.md",
     "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
@@ -192,7 +193,6 @@
     "ob/ob_流程图和思维导图/test.md",
     "ob/ob_流程图和思维导图/STL空间配置器流程图.excalidraw.md",
     "ob/ob_Excalidraw/Drawing 2024-04-29 16.52.30.excalidraw.md",
-    "README.MD",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
     "node_modules/stream-http/test/server/static/browserify.png",
