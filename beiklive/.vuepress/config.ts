@@ -42,6 +42,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: 'C/C++', link: '/note/cpp/' },
               { text: 'Python', link: '/note/python/' },
               { text: 'Qt', link: '/note/qt/' },
+			  { text: '夏姬八学', link: '/note/other/' },
             ],
           },
           {
