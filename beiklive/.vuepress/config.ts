@@ -46,9 +46,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
           {
-            text: '操作系统',
+            text: '系统&引擎',
             items: [
               { text: 'Linux', link: '/note/linux/' },
+              { text: 'Godot', link: '/note/godot/' },
             ],
           }
         ],
