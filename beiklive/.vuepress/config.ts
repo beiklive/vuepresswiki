@@ -42,7 +42,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: 'C/C++', link: '/note/cpp/' },
               { text: 'Python', link: '/note/python/' },
               { text: 'Qt', link: '/note/qt/' },
-			  { text: '夏姬八学', link: '/note/other/' },
             ],
           },
           {
@@ -50,6 +49,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: 'Linux', link: '/note/linux/' },
               { text: 'Godot', link: '/note/godot/' },
+            ],
+          },
+          {
+            text: '夏姬八学',
+            items: [
+              { text: '夏姬八学', link: '/note/other/' },
             ],
           }
         ],
@@ -91,9 +96,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/more/',
         items: [
           { text: '友情链接', link: '/friends/' },
+		  { text: '关于', link: '/about/' },
         ],
       },
-      { text: '关于', link: '/about/' },
       // {
       //   text: '收藏',
       //   link: '/pages/beb6c0bd8a66cea6/',
