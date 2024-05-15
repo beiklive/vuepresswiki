@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "beiklive/Note_Godot/07.着色器学习（四） 一些内建变量的使用.md",
+                "file": "beiklive/Note_Qt/04.问题记录 QT 开机自启动读取文件失败.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "beiklive/Note_Godot/07.着色器学习（四） 一些内建变量的使用.md"
+                "file": "beiklive/Note_Qt/04.问题记录 QT 开机自启动读取文件失败.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "beiklive/Note_Godot/07.着色器学习（四） 一些内建变量的使用.md",
+                "file": "beiklive/Note_Qt/04.问题记录 QT 开机自启动读取文件失败.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "beiklive/Note_Godot/07.着色器学习（四） 一些内建变量的使用.md",
+                "file": "beiklive/Note_Qt/04.问题记录 QT 开机自启动读取文件失败.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,15 +158,26 @@
   },
   "active": "b17e861e7080aef8",
   "lastOpenFiles": [
+    "beiklive/Note_Godot/01.gdscript - 常用代码片段.md",
+    "beiklive/Note_Qt/04.问题记录 QT 开机自启动读取文件失败.md",
+    "tools/新文章生成器/build/main/EXE-00.toc",
+    "tools/新文章生成器/dist/main.exe",
+    "tools/新文章生成器/build/main/PKG-00.toc",
+    "tools/新文章生成器/build/main/main.pkg",
+    "tools/新文章生成器/build/main/PYZ-00.toc",
+    "tools/新文章生成器/build/main/PYZ-00.pyz",
+    "tools/新文章生成器/build/main/localpycs/struct.pyc",
+    "tools/新文章生成器/build/main/localpycs/pyimod04_pywin32.pyc",
+    "tools/新文章生成器/build/main/localpycs/pyimod03_ctypes.pyc",
+    "tools/新文章生成器/build/main/localpycs/pyimod02_importers.pyc",
+    "beiklive/Note_Godot/02.着色器 - 图片像素化.md",
+    "beiklive/Note_Godot/03.着色器学习（零）-基础简介.md",
+    "beiklive/Note_Godot/04.着色器学习（一）-基本语法.md",
+    "beiklive/Note_Godot/07.着色器学习（四） 一些内建变量的使用.md",
     "beiklive/Note_Godot/06.着色器学习（三） 内建函数.md",
     "beiklive/Note_Godot/05.着色器学习（二） 内建变量.md",
-    "beiklive/Note_Godot/04.着色器学习（一）-基本语法.md",
-    "beiklive/Note_Godot/03.着色器学习（零）-基础简介.md",
-    "beiklive/Note_Godot/07.着色器学习（四） 一些内建变量的使用.md",
     "beiklive/Note_Godot/08.着色器学习（一）-基本语法 1 1 1 1.md",
     "beiklive/Note_Other/00.CRC校验.md",
-    "beiklive/Note_Godot/02.着色器 - 图片像素化.md",
-    "beiklive/Note_Godot/01.gdscript - 常用代码片段.md",
     "beiklive/Note_Linux/05.Linux终端字符染色.md",
     "beiklive/Note_Linux/04.MySQL安装.md",
     "beiklive/Note_Linux/03.自定义 systemd 服务.md",
@@ -183,17 +194,6 @@
     "beiklive/02.记录/01.工具使用/02.vscode.md",
     "beiklive/02.记录/01.工具使用/01.Git.md",
     "beiklive/01.学习/03.夏姬八学/01.other.md",
-    "beiklive/01.学习/02.操作系统/02.godot.md",
-    "beiklive/Note_Godot",
-    "beiklive/新建文件夹",
-    "beiklive/Note_Other",
-    "beiklive/01.学习/03.夏姬八学",
-    "tools/新文章生成器/main.exe",
-    "tools/新文章生成器/build/main/EXE-00.toc",
-    "tools/新文章生成器/dist/main.exe",
-    "tools/新文章生成器/build/main/PKG-00.toc",
-    "tools/新文章生成器/build/main/main.pkg",
-    "tools/新文章生成器/build/main/PYZ-00.toc",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
     "node_modules/stream-http/test/server/static/browserify.png",

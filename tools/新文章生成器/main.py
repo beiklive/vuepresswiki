@@ -2,6 +2,7 @@ import os
 
 target_base_dir = "../../beiklive"
 
+
 class ArticleHeader:
     def __init__(self):
         self.title = ""
@@ -88,8 +89,8 @@ class FileGenerator:
             print("0: 返回上一级目录")
             for i in range(len(dir_list)):
                 print(str(i+1) + ": " + dir_list[i])
-            select_num = input("请输入对应序号：(输入 999 结束选择): ")
-            if int(select_num) == 999:
+            select_num = input("请输入对应序号：(直接按回车结束选择): ")
+            if select_num == "":
                 break
             if int(select_num) < 0 or int(select_num) > len(dir_list):
                 print("序号输入错误，请重新输入！")
@@ -118,13 +119,18 @@ class FileGenerator:
 
             last_file_name = file_name_list[-1]
             file_base_name = os.path.splitext(last_file_name)[0]
+            # file_base_name 如果有 . 符号，则切割字符串，取后一半
+            if "." in file_base_name:
+                file_base_name = file_base_name.split(".")[-1]
+            # last_file_name 中的空格替换为%20
+            last_file_name = last_file_name.replace(" ", "%20")
             obsidian_link = f"\n::: tip 前一篇\n[{file_base_name}]({last_file_name})\n:::\n"
             content += obsidian_link
 
             # 获取最新文件名的编号
             file_name_prefix = str(int(file_name_list[-1].split('.')[0]) + 1).zfill(2)
         # 生成文件名
-        file_name = file_name_prefix + "." + title.replace(" ", "-") + ".md"
+        file_name = file_name_prefix + "." + title + ".md"
         print("新文件名：" + file_name)
         # 打开文件并写入文章头部
         with open(os.path.join(target_dir, file_name), 'w', encoding="utf-8") as f:
