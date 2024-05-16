@@ -19,5 +19,6 @@ jobs:
         env:
             GITHUB_TOKEN: ${{ secrets.GRIDEA }}
         run: |
+          pip install requests
           cd tools/自动创建评论
           python GtalkComment.py ${GITHUB_TOKEN}
