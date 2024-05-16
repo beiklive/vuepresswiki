@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.MD",
+                "file": "beiklive/Note_C/01.控制台实现2048小游戏.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.MD"
+                "file": "beiklive/Note_C/01.控制台实现2048小游戏.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.MD",
+                "file": "beiklive/Note_C/01.控制台实现2048小游戏.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.MD",
+                "file": "beiklive/Note_C/01.控制台实现2048小游戏.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,26 +158,27 @@
   },
   "active": "b17e861e7080aef8",
   "lastOpenFiles": [
+    "beiklive/Note_Godot/07.着色器学习（四） 一些内建变量的使用.md",
+    "tools/自动创建评论/GtalkComment.py",
+    "tools/自动创建评论/新建文本文档.txt",
+    "tools/自动创建评论",
+    "tools/新建文件夹",
+    "beiklive/Note_Godot/06.着色器学习（三） 内建函数.md",
+    "beiklive/Note_Godot/05.着色器学习（二） 内建变量.md",
+    "beiklive/Note_Godot/04.着色器学习（一）-基本语法.md",
+    "beiklive/Note_C/01.控制台实现2048小游戏.md",
+    "README.MD",
     "tools/百度站长推送/baiduPush.py",
     "tools/百度站长推送/新建文本文档.txt",
     "tools/百度站长推送",
-    "tools/新建文件夹",
     "beiklive/02.记录/01.工具使用/01.Git.md",
     "beiklive/Note_Qt/04.问题记录 QT 开机自启动读取文件失败.md",
     "beiklive/Note_Godot/01.gdscript - 常用代码片段.md",
     "tools/新文章生成器/build/main/EXE-00.toc",
     "tools/新文章生成器/dist/main.exe",
     "tools/新文章生成器/build/main/PKG-00.toc",
-    "tools/新文章生成器/build/main/main.pkg",
-    "tools/新文章生成器/build/main/PYZ-00.toc",
-    "tools/新文章生成器/build/main/PYZ-00.pyz",
-    "tools/新文章生成器/build/main/localpycs/struct.pyc",
     "beiklive/Note_Godot/02.着色器 - 图片像素化.md",
     "beiklive/Note_Godot/03.着色器学习（零）-基础简介.md",
-    "beiklive/Note_Godot/04.着色器学习（一）-基本语法.md",
-    "beiklive/Note_Godot/07.着色器学习（四） 一些内建变量的使用.md",
-    "beiklive/Note_Godot/06.着色器学习（三） 内建函数.md",
-    "beiklive/Note_Godot/05.着色器学习（二） 内建变量.md",
     "beiklive/Note_Godot/08.着色器学习（一）-基本语法 1 1 1 1.md",
     "beiklive/Note_Other/00.CRC校验.md",
     "beiklive/Note_Linux/05.Linux终端字符染色.md",
@@ -192,8 +193,6 @@
     "beiklive/03.资源/01.书籍文档/01.书籍文档.md",
     "beiklive/02.记录/02.折腾记录/01.raspberrypi.md",
     "beiklive/02.记录/02.折腾记录/00.obsidian.md",
-    "beiklive/02.记录/01.工具使用/03.xmake.md",
-    "beiklive/02.记录/01.工具使用/02.vscode.md",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
     "node_modules/stream-http/test/server/static/browserify.png",
