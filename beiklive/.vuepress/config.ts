@@ -223,13 +223,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         name: 'keywords',
         content: '后端博客,个人技术博客,C++,linux,qt,python,技术文档,学习,vue,python,css3,html5,Node,git,github,markdown',
       },
-	  'meta',
-	  {
-		name: 'baidu-site-verification',
-		content: 'codeva-dmUFtoNiz1',
-	  },
     ],
-    ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证（你可以去掉）
+    ['meta', { name: 'baidu-site-verification', content: 'codeva-dmUFtoNiz1' }], // 百度统计的站长验证（你可以去掉）
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     // [
     //   'script',
