@@ -46,4 +46,5 @@ jobs:
                 full_url="${base_url}${relative_path}"
                 echo "$full_url" >> "$output_file"
             done
+            cat "$output_file"
             curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=doc.beiklive.top&token=wrUX2ETDK1sgdhZA"
