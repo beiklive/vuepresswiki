@@ -37,14 +37,16 @@ jobs:
         run: |
             yarn
             yarn build
-            startpath="./beiklive/.vuepress/dist/"
+            startpath="./beiklive/.vuepress/dist"
             output_file="urls.txt"
-            base_url="http://doc.beiklive.top/"
+            base_url="http://doc.beiklive.top"
             > "$output_file"
             find "$startpath" -type f | while read -r file; do
-                relative_path="${file#$startpath/}" 
+                relative_path="${file}" 
                 full_url="${base_url}${relative_path}"
                 echo "$full_url" >> "$output_file"
             done
+            replace_str=''
+            sed -i "s|$startpath|$replace_str|g" "$output_file"
             cat "$output_file"
             curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=doc.beiklive.top&token=wrUX2ETDK1sgdhZA"
