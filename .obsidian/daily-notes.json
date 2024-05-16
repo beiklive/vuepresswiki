@@ -1,3 +1,5 @@
 {
-  "folder": "ob/ob_日记"
+  "folder": "ob/ob_日记",
+  "template": "ob/ob_模板/日记模板.mb",
+  "format": "YYYY年MM月DD日 日记"
 }

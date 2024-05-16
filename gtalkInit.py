@@ -1,68 +1,10 @@
----
-title: 使用Git Action自动初始化Gitalk评论
-permalink: /pages/f9ee7418e4e04edf93c1fc8bce5afb62/
-date: 2024-05-16 18:29:33
-categories:
-  - 学习
-  - 夏姬八学
-tags:
-  - github
-  - gitalk
-author:
-  name: beiklive
-  link: https://github.com/beiklive
----
-
-::: tip 前一篇
-[wireshark-抓取指定程序](03.wireshark-抓取指定程序.md)
-:::
-
-因为每个页面的Gitalk评论都需要初始化一次才能正常评论，因此可以借助git action在提交时自动进行初始化
-
-
-直接贴代码
-### CI文件
-
-`gitalkcomment.yml`
-
-```yml
-name: Execute python script to create github issue
-
-on: [push]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: checkout actions
-        uses: actions/checkout@v1        
-
-      - name: Set up Python 3.7
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.7
-
-      - name: Create github issue
-        env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          pip install requests
-          cd tools/自动创建评论
-          GITHUB_TOKEN=${GITHUB_TOKEN} python GtalkComment.py
-
-```
-
-### python脚本文件
-
-```python
 import requests
 import subprocess
 import os
 import time
 
 def get_issues_titles(repo_owner, repo_name, token):
-    url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/issues"
+    url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/issues?labels=Gitalk"
     headers = {
         'Authorization': f'token {token}',
         'Accept': 'application/vnd.github.v3+json'
@@ -152,11 +94,11 @@ def CreateNewCommentIssue(repo_owner, repo_name, token):
 
     # 获取已经创建的issue列表
     issue_list = get_issues_titles(repo_owner, repo_name, token)
+    print(issue_list)
 
     for file_name in md_list:
         print("------------------------------------")
         title = Get_file_title(file_name)
-        # print(title)
         if None != title:
             search_str = '「评论」' + title
             if search_str in issue_list:
@@ -173,11 +115,13 @@ def CreateNewCommentIssue(repo_owner, repo_name, token):
         time.sleep(10)
 
 
+
+
+
+
 if __name__ == "__main__":
     repo_owner = "beiklive"  # 替换为仓库所有者
     repo_name = "vuepresswiki"    # 替换为仓库名称
     token=os.environ.get('GITHUB_TOKEN') #申请的github访问口令
 
     CreateNewCommentIssue(repo_owner, repo_name, token);
-
-```

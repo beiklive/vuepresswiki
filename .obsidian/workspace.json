@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "27c755181dc6eae2",
+        "id": "2a357c9377a4ec15",
         "type": "tabs",
         "children": [
           {
-            "id": "b17e861e7080aef8",
+            "id": "44c82c02902be6ba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "beiklive/Note_Other/04.使用Git Action自动初始化Gitalk评论.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -70,9 +66,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "beiklive/Note_Other/04.使用Git Action自动初始化Gitalk评论.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -95,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "beiklive/Note_Other/04.使用Git Action自动初始化Gitalk评论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "beiklive/Note_Other/04.使用Git Action自动初始化Gitalk评论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,14 +128,21 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "1e217294ba5abc30",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 374.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,10 +155,23 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b17e861e7080aef8",
+  "active": "44c82c02902be6ba",
   "lastOpenFiles": [
-    "beiklive/Note_Other/03.wireshark-抓取指定程序.md",
+    "Home.md",
+    "ob/ob_日记/2024年05月15日 日记.md",
+    "ob/ob_日记/2024-05-16.md",
+    "ob/ob_模板/日记模板.mb.md",
+    "ob/ob_周报/2024-W20.md",
+    "ob/ob_周报",
+    "ob/ob_日记/日记.md",
+    "ob/ob_日记/2024-05-24.md",
+    "beiklive/Note_Linux/01.ubuntu桌面版自定义快捷方式.md",
+    "beiklive/Note_Linux/01.ubuntu桌面版自定义快.md",
+    "ob/ob_流程图和思维导图/FastDDS/Fast-DDS发布者文件构成.md",
+    "ob/ob_流程图和思维导图/FastDDS/Fast-DDS发布者实现.md",
+    "beiklive/index.md",
     "beiklive/Note_Other/04.使用Git Action自动初始化Gitalk评论.md",
+    "beiklive/Note_Other/03.wireshark-抓取指定程序.md",
     "beiklive/01.学习/03.夏姬八学/01.other.md",
     "beiklive/02.记录/02.折腾记录/00.obsidian.md",
     "beiklive/Note_C/01.控制台实现2048小游戏.md",
@@ -180,20 +192,7 @@
     "beiklive/Note_Godot/01.gdscript - 常用代码片段.md",
     "tools/新文章生成器/build/main/EXE-00.toc",
     "tools/新文章生成器/dist/main.exe",
-    "tools/新文章生成器/build/main/PKG-00.toc",
     "beiklive/Note_Godot/02.着色器 - 图片像素化.md",
-    "beiklive/Note_Godot/03.着色器学习（零）-基础简介.md",
-    "beiklive/Note_Godot/08.着色器学习（一）-基本语法 1 1 1 1.md",
-    "beiklive/Note_Other/00.CRC校验.md",
-    "beiklive/Note_Linux/05.Linux终端字符染色.md",
-    "beiklive/Note_Linux/04.MySQL安装.md",
-    "beiklive/Note_Linux/03.自定义 systemd 服务.md",
-    "beiklive/Note_Linux/02.Samba配置.md",
-    "beiklive/Note_Linux/01.ubuntu桌面版自定义快捷方式.md",
-    "beiklive/04.更多/01. friends.md",
-    "beiklive/03.资源/03.Github项目/01.Github项目.md",
-    "beiklive/03.资源/02.工具网站/02.摸鱼网站.md",
-    "beiklive/03.资源/02.工具网站/01.工具网站.md",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
     "node_modules/stream-http/test/server/static/browserify.png",
