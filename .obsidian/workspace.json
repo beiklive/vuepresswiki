@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "beiklive/Note_C/01.控制台实现2048小游戏.md",
+                "file": "beiklive/Note_Other/04.使用Git Action自动初始化Gitalk评论.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "beiklive/Note_C/01.控制台实现2048小游戏.md"
+                "file": "beiklive/Note_Other/04.使用Git Action自动初始化Gitalk评论.md"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "beiklive/Note_C/01.控制台实现2048小游戏.md",
+                "file": "beiklive/Note_Other/04.使用Git Action自动初始化Gitalk评论.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "beiklive/Note_C/01.控制台实现2048小游戏.md",
+                "file": "beiklive/Note_Other/04.使用Git Action自动初始化Gitalk评论.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +158,11 @@
   },
   "active": "b17e861e7080aef8",
   "lastOpenFiles": [
+    "beiklive/Note_Other/03.wireshark-抓取指定程序.md",
+    "beiklive/Note_Other/04.使用Git Action自动初始化Gitalk评论.md",
+    "beiklive/01.学习/03.夏姬八学/01.other.md",
+    "beiklive/02.记录/02.折腾记录/00.obsidian.md",
+    "beiklive/Note_C/01.控制台实现2048小游戏.md",
     "beiklive/Note_Godot/07.着色器学习（四） 一些内建变量的使用.md",
     "tools/自动创建评论/GtalkComment.py",
     "tools/自动创建评论/新建文本文档.txt",
@@ -166,7 +171,6 @@
     "beiklive/Note_Godot/06.着色器学习（三） 内建函数.md",
     "beiklive/Note_Godot/05.着色器学习（二） 内建变量.md",
     "beiklive/Note_Godot/04.着色器学习（一）-基本语法.md",
-    "beiklive/Note_C/01.控制台实现2048小游戏.md",
     "README.MD",
     "tools/百度站长推送/baiduPush.py",
     "tools/百度站长推送/新建文本文档.txt",
@@ -190,9 +194,6 @@
     "beiklive/03.资源/03.Github项目/01.Github项目.md",
     "beiklive/03.资源/02.工具网站/02.摸鱼网站.md",
     "beiklive/03.资源/02.工具网站/01.工具网站.md",
-    "beiklive/03.资源/01.书籍文档/01.书籍文档.md",
-    "beiklive/02.记录/02.折腾记录/01.raspberrypi.md",
-    "beiklive/02.记录/02.折腾记录/00.obsidian.md",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
     "node_modules/stream-http/test/server/static/browserify.png",
