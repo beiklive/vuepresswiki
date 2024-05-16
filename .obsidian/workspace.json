@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/01.Git.md",
+                "file": "README.MD",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/01.Git.md"
+                "file": "README.MD"
               }
             }
           }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/01.Git.md",
+                "file": "README.MD",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "beiklive/02.记录/01.工具使用/01.Git.md",
+                "file": "README.MD",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,6 +158,7 @@
   },
   "active": "b17e861e7080aef8",
   "lastOpenFiles": [
+    "beiklive/02.记录/01.工具使用/01.Git.md",
     "beiklive/Note_Qt/04.问题记录 QT 开机自启动读取文件失败.md",
     "beiklive/Note_Godot/01.gdscript - 常用代码片段.md",
     "tools/新文章生成器/build/main/EXE-00.toc",
@@ -192,7 +193,6 @@
     "beiklive/02.记录/02.折腾记录/00.obsidian.md",
     "beiklive/02.记录/01.工具使用/03.xmake.md",
     "beiklive/02.记录/01.工具使用/02.vscode.md",
-    "beiklive/02.记录/01.工具使用/01.Git.md",
     "beiklive/01.学习/03.夏姬八学/01.other.md",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
