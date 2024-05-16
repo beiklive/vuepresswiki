@@ -2,7 +2,6 @@ import requests
 import subprocess
 import os
 import time
-import argparse
 
 def get_issues_titles(repo_owner, repo_name, token):
     url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/issues"
@@ -123,8 +122,6 @@ def CreateNewCommentIssue(repo_owner, repo_name, token):
 if __name__ == "__main__":
     repo_owner = "beiklive"  # 替换为仓库所有者
     repo_name = "vuepresswiki"    # 替换为仓库名称
-    parser = argparse.ArgumentParser(description='获取action传入的token')
-    parser.add_argument('token', help='githubtoken')
-    args = parser.parse_args()
+    token=os.environ.get('GITHUB_TOKEN') #申请的github访问口令
 
-    CreateNewCommentIssue(repo_owner, repo_name, args.token);
+    CreateNewCommentIssue(repo_owner, repo_name, token);

@@ -21,4 +21,4 @@ jobs:
         run: |
           pip install requests
           cd tools/自动创建评论
-          python GtalkComment.py ${GITHUB_TOKEN}
+          GITHUB_TOKEN=${GITHUB_TOKEN} python GtalkComment.py
