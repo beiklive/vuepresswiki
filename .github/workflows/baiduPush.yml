@@ -14,9 +14,36 @@ on:
 
 jobs:
   bot:
-    runs-on: ubuntu-latest # 运行环境为最新版的Ubuntu
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
     steps:
-      - name: 'Checkout codes' # 步骤一，获取仓库代码
-        uses: actions/checkout@v1
-      - name: 'Run baiduPush' # 步骤二，执行sh命令文件
-        run: npm install && npm run baiduPush # 运行目录是仓库根目录
+      - name: Checkout # 步骤1
+        uses: actions/checkout@v1 # 使用的动作。格式：userName/repoName。作用：检出仓库，获取源码。 官方actions库：https://github.com/actions
+      - name: Use Node.js ${{ matrix.node-version }} # 步骤2
+        uses: actions/setup-node@v3 # 作用：安装nodejs
+        with:
+          node-version: ${{ matrix.node-version }} # 版本
+      - name: change base path
+        run: |
+            cd beiklive/.vuepress
+            search_str="/vuepresswiki/"
+            replace_str="/"
+            sed -i "s|$search_str|$replace_str|g" config.ts
+            echo "替换完成。"
+      - name: Build-and-deploy # 步骤3
+        run: |
+            yarn
+            yarn build
+            startpath="./beiklive/.vuepress/dist/"
+            output_file="urls.txt"
+            base_url="http://doc.beiklive.top/"
+            > "$output_file"
+            find "$startpath" -type f | while read -r file; do
+                relative_path="${file#$startpath/}" 
+                full_url="${base_url}${relative_path}"
+                echo "$full_url" >> "$output_file"
+            done
+            curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=doc.beiklive.top&token=wrUX2ETDK1sgdhZA"
