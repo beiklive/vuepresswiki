@@ -52,9 +52,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             ],
           },
           {
-            text: '夏姬八学',
+            text: '啥都学',
             items: [
               { text: '夏姬八学', link: '/note/other/' },
+              { text: '好好学习', link: '/note/books/' },
             ],
           }
         ],
@@ -64,22 +65,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/record/',
         items: [
           {
-            text: '工具使用',
-            items: [
-              { text: 'Git', link: '/pages/5e4662/' },
-              { text: 'VScode', link: '/pages/d6255a/' },
-              { text: 'XMake', link: '/pages/195c25/' },
-            ],
-          },
-          {
             text: '折腾记录',
             items: [
               { text: '树莓派', link: '/note/raspberrypi/' },
-              { text: 'Obsidian', link: '/note/obsidian/' }
+              { text: 'Obsidian', link: '/note/obsidian/' },
+              { text: '实践记录', link: '/note/record/' },
             ],
           },
-
-
         ],
       },
       {

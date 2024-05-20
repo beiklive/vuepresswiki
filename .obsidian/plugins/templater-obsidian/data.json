@@ -1,0 +1,35 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "ob/ob_模板",
+  "templates_pairs": [
+    [
+      "创建文件",
+      "./tools/新文章生成器/main.exe"
+    ],
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": false,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": true,
+  "shell_path": "C:\\Windows\\System32\\cmd.exe",
+  "user_scripts_folder": "tools",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}

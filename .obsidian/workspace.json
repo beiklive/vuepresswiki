@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2a357c9377a4ec15",
+        "id": "3aeb707c5e7f9168",
         "type": "tabs",
         "children": [
           {
-            "id": "44c82c02902be6ba",
+            "id": "b72a3d0897986088",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "beiklive/00.目录页/04.更多.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -66,7 +70,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "beiklive/00.目录页/04.更多.md"
+              }
             }
           }
         ]
@@ -89,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "beiklive/00.目录页/04.更多.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "beiklive/00.目录页/04.更多.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,11 +160,23 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "44c82c02902be6ba",
+  "active": "b72a3d0897986088",
   "lastOpenFiles": [
+    "beiklive/00.目录页/03.资源.md",
+    "beiklive/00.目录页/02.记录.md",
+    "beiklive/00.目录页/01.学习.md",
+    "beiklive/01.学习/01.语言学习/00.C++.md",
+    "beiklive/01.学习/03.夏姬八学/02.learn.md",
+    "beiklive/01.学习/03.夏姬八学/01.other.md",
+    "beiklive/Note_books/00.《计算机网络，自顶向下方法》笔记（一）.md",
+    "beiklive/02.记录/02.实践记录.md",
+    "beiklive/Note_Record/01.Git.md",
+    "beiklive/Note_Record/03.xmake.md",
+    "beiklive/Note_Record/02.vscode.md",
     "Home.md",
     "ob/ob_日记/2024年05月15日 日记.md",
     "ob/ob_日记/2024-05-16.md",
@@ -172,27 +192,16 @@
     "beiklive/index.md",
     "beiklive/Note_Other/04.使用Git Action自动初始化Gitalk评论.md",
     "beiklive/Note_Other/03.wireshark-抓取指定程序.md",
-    "beiklive/01.学习/03.夏姬八学/01.other.md",
     "beiklive/02.记录/02.折腾记录/00.obsidian.md",
-    "beiklive/Note_C/01.控制台实现2048小游戏.md",
-    "beiklive/Note_Godot/07.着色器学习（四） 一些内建变量的使用.md",
     "tools/自动创建评论/GtalkComment.py",
     "tools/自动创建评论/新建文本文档.txt",
     "tools/自动创建评论",
     "tools/新建文件夹",
-    "beiklive/Note_Godot/06.着色器学习（三） 内建函数.md",
-    "beiklive/Note_Godot/05.着色器学习（二） 内建变量.md",
-    "beiklive/Note_Godot/04.着色器学习（一）-基本语法.md",
-    "README.MD",
     "tools/百度站长推送/baiduPush.py",
     "tools/百度站长推送/新建文本文档.txt",
     "tools/百度站长推送",
-    "beiklive/02.记录/01.工具使用/01.Git.md",
-    "beiklive/Note_Qt/04.问题记录 QT 开机自启动读取文件失败.md",
-    "beiklive/Note_Godot/01.gdscript - 常用代码片段.md",
     "tools/新文章生成器/build/main/EXE-00.toc",
     "tools/新文章生成器/dist/main.exe",
-    "beiklive/Note_Godot/02.着色器 - 图片像素化.md",
     "node_modules/npm/node_modules/promise-retry/node_modules/retry/equation.gif",
     "node_modules/yamljs/test/lib/jasmine-2.0.0/jasmine_favicon.png",
     "node_modules/stream-http/test/server/static/browserify.png",
