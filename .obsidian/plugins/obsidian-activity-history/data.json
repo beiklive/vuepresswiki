@@ -4,16 +4,26 @@
     {
       "path": "/",
       "initialized": true
+    },
+    {
+      "path": "beiklive",
+      "initialized": true
     }
   ],
   "trackedProjects": [
-    "/"
+    "/",
+    "beiklive"
   ],
   "checkpointList": [
     {
       "path": "/",
-      "date": "2024-05-17",
-      "size": 366391
+      "date": "2024-05-20",
+      "size": 366542
+    },
+    {
+      "path": "beiklive",
+      "date": "2024-05-20",
+      "size": 209294
     }
   ],
   "activityHistory": [
@@ -23,6 +33,19 @@
         {
           "date": "2024-05-17",
           "value": 1170
+        },
+        {
+          "date": "2024-05-20",
+          "value": 151
+        }
+      ]
+    },
+    {
+      "path": "beiklive",
+      "size": [
+        {
+          "date": "2024-05-20",
+          "value": 0
         }
       ]
     }
