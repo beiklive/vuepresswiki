@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "beiklive/Note_C/02.C++简单线程池.md",
+                "file": "beiklive/Note_books/00.《计算机网络，自顶向下方法》笔记（一）.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,15 +71,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "beiklive/Note_C/02.C++简单线程池.md"
+                "file": "beiklive/Note_books/00.《计算机网络，自顶向下方法》笔记（一）.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 282.50418853759766
+    "width": 200
   },
   "right": {
     "id": "9fc46e5c65ccb73a",
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "beiklive/Note_C/02.C++简单线程池.md",
+                "file": "beiklive/Note_books/00.《计算机网络，自顶向下方法》笔记（一）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "beiklive/Note_C/02.C++简单线程池.md",
+                "file": "beiklive/Note_books/00.《计算机网络，自顶向下方法》笔记（一）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,8 +167,10 @@
   },
   "active": "92a36b2535b0320f",
   "lastOpenFiles": [
-    "beiklive/Note_C/03.测试文件测试.md",
+    "beiklive/Note_obsidian/02.使用 Picgo 上传图片到图床.md",
+    "beiklive/Note_books/00.《计算机网络，自顶向下方法》笔记（一）.md",
     "beiklive/Note_C/02.C++简单线程池.md",
+    "beiklive/Note_C/03.测试文件测试.md",
     "Home.md",
     "beiklive/_posts/随笔/测试.md",
     "ob/ob_模板/日记模板.mb.md",
@@ -180,7 +183,6 @@
     "beiklive/01.学习/01.语言学习/00.C++.md",
     "beiklive/01.学习/03.夏姬八学/02.learn.md",
     "beiklive/01.学习/03.夏姬八学/01.other.md",
-    "beiklive/Note_books/00.《计算机网络，自顶向下方法》笔记（一）.md",
     "beiklive/02.记录/02.实践记录.md",
     "beiklive/Note_Record/01.Git.md",
     "beiklive/Note_Record/03.xmake.md",
@@ -192,7 +194,6 @@
     "beiklive/Note_Linux/01.ubuntu桌面版自定义快捷方式.md",
     "beiklive/Note_Linux/01.ubuntu桌面版自定义快.md",
     "ob/ob_流程图和思维导图/FastDDS/Fast-DDS发布者文件构成.md",
-    "ob/ob_流程图和思维导图/FastDDS/Fast-DDS发布者实现.md",
     "tools/自动创建评论/GtalkComment.py",
     "tools/自动创建评论/新建文本文档.txt",
     "tools/自动创建评论",

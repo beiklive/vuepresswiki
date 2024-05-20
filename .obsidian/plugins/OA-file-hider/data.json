@@ -2,8 +2,9 @@
   "hidden": true,
   "hiddenList": [
     "beiklive/@pages",
+    "node_modules",
+    "tools",
     "utils",
-    "vdoing",
-    "node_modules"
+    "vdoing"
   ]
 }
